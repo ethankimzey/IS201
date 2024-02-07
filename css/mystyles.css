@@ -1,0 +1,113 @@
+<!-- Ethan Kimzey
+IS 201 M003
+January 19, 2024-->
+
+    body
+{
+    font-family: sans-serif;
+    color: black;
+    font-size: 12px;
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+        
+} 
+
+.common{
+    position: absolute;
+    border: solid 1px black;
+}
+
+
+.header{
+    top: 5px;
+    left: 5px;
+    right: auto;
+    height: 180px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+}
+
+.leftmenu{
+    left: 5px;
+    width: 100px;
+    height: 100%;
+    border-right:  solid 1px #555555;
+    
+    background-color: whitesmoke;
+    position: fixed;
+/*    float: left; */
+   top: 5px; 
+/*    padding-top: 20px; */
+    padding-left: 5px;
+    overflow-y: auto;
+}
+.mainbody{
+    left: 107px;
+    right: auto;
+/*    padding-right: 15px;*/
+    background-color: lightgray;
+    position: relative; /* Change position to relative */
+    margin-top: 190px; /* Adjusted margin-top to start below the header image */
+/*    padding-top: 20px;*/
+    padding-left: 10px;
+    padding-top: 10px
+    
+
+}
+
+
+   footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 12px;
+    text-align: center;
+    padding: 15px;
+    color: black;
+    position: fixed;
+    background-color: whitesmoke;
+    
+} 
+
+.centercaption{
+    text-align: center;
+}
+.centervid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 50%;}
+
+.centertext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}    
+.backtotop{
+    
+    text-align: center;
+}
+
+a:any-link{
+    text-decoration-color: red;
+    color: red;
+}
+
+a:hover {
+    
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.tableau {
+    width: 80%; 
+    max-width: 1000px; 
+    height: 400px; 
+    margin: 0 auto; /* Center the visualization horizontally */
